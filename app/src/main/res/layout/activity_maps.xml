@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <!-- AppBarLayout: Contenedor de la AppBar -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/maps_menu"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:layout_scrollFlags="scroll|enterAlways"
+        app:title="Selecciona la ubicación"
+        app:titleTextColor="@color/white" />
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MapsActivity" />
+
+    <!--
+    <AutoCompleteTextView
+        android:id="@+id/mapsAutocompletarPlaces"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/rounded_text_view"
+        android:drawableLeft="@drawable/baseline_search_24"
+        android:drawablePadding="8dp"
+        android:drawableTint="?android:textColorPrimary"
+        android:textCursorDrawable="@drawable/maps_search_cursor"
+        android:hint="Buscar ubicación"
+        android:paddingLeft="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/map"
+        app:layout_constraintTop_toTopOf="parent" />
+    -->
+
+    <ImageButton
+        android:id="@+id/btnCurrentLocation"
+        style="@android:style/Widget.Material.ImageButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded_image_button"
+        android:elevation="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="30sp"
+        android:layout_marginBottom="30sp"
+        app:srcCompat="@drawable/baseline_gps_fixed_24"
+        app:tint="@color/white" />
+</RelativeLayout>

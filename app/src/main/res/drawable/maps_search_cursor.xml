@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <size android:width="2dp" /> <!-- Ajusta el ancho del cursor según tus preferencias -->
+    <solid android:color="?android:textColorPrimary" /> <!-- Cambia "@color/custom_cursor_color" por el color deseado -->
+</shape>

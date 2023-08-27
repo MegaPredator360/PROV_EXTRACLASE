@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.PROV_EXTRACLASE" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryNight</item>
+        <item name="colorSecondary">@color/colorSecondaryNight</item>
+        <item name="colorAccent">@color/colorAccentNight</item>
+    </style>
+
+</resources>

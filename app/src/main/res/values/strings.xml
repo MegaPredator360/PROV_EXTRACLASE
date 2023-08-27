@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SkyWatch</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="SelectedLocation">Selected Location:</string>
+    <string name="CurrentWeather">Weather Description:</string>
+    <string name="CurrentTemperature">Current Temperature:</string>
+    <string name="PlaceName">There is not a selected location</string>
+    <string name="SelectLocation">Select a Location</string>
+    <string name="PermissionNeeded">Permissions are requiered to select a location.</string>
+    <string name="getLocationNameNotFound">Cannot find information about of location</string>
+    <string name="getLocationNameError">An error ocurred at getting location name</string>
+</resources>

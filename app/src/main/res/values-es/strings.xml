@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CieloVer</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="SelectedLocation">Ubicación Seleccionada:</string>
+    <string name="CurrentWeather">Descripción del clima:</string>
+    <string name="CurrentTemperature">Temperatura Actual:</string>
+    <string name="PlaceName">No hay una ubicación seleccionada</string>
+    <string name="SelectLocation">Selecciona una ubicación</string>
+    <string name="PermissionNeeded">Permisos son requeridos para seleccionar la ubicación.</string>
+    <string name="getLocationNameNotFound">No se encontró información acerca de la ubicación.</string>
+    <string name="getLocationNameError">Un error ocurrio al intentar obtener el nombre de la ubicación.</string>
+</resources>
